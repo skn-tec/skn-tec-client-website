@@ -174,7 +174,16 @@ const Footer = () => {
           <div className="border-t border-gray-700/50 bg-black/30 py-6 text-center">
             <p className="text-gray-400 text-sm">
               Copyright © 2025 <span className="text-[#10b981]">SKN TEC</span>.
-              All Rights Reserved.
+              All Rights Reserved | Created with ♥️ by{" "}
+              <Link
+                href="https://www.orqueinnovations.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="hover:text-[#10b981] underline underline-offset-4 transition-colors"
+              >
+                Orque
+              </Link>
+              .
             </p>
           </div>
         </div>
