@@ -55,7 +55,7 @@ const Footer = () => {
                 </p>{" "}
                 <p className="text-sm font-medium text-gray-300 leading-snug">
                   {" "}
-                  Odanavattam, Society <br /> Junction{" "}
+                  Odanavattam, Society <br /> Junction123{" "}
                 </p>{" "}
               </div>{" "}
             </div>{" "}
