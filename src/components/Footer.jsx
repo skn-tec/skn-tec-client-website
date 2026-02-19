@@ -55,7 +55,7 @@ const Footer = () => {
                 </p>{" "}
                 <p className="text-sm font-medium text-gray-300 leading-snug">
                   {" "}
-                  Odanavattam, Society <br /> Junction123{" "}
+                  Odanavattam, Society <br /> Junction{" "}
                 </p>{" "}
               </div>{" "}
             </div>{" "}
@@ -149,13 +149,9 @@ const Footer = () => {
                   "B.Tech Coaching",
                   "Supply Exam Preparation",
                 ].map((item, i) => (
-                  <li key={i}>
-                    <Link
-                      href="#"
-                      className="text-gray-400 hover:text-[#34d399] text-sm"
-                    >
-                      › {item}
-                    </Link>
+                  <li key={i} className="text-gray-400 text-sm flex items-center">
+                    <span className="text-[#10b981] mr-2">›</span>
+                    {item}
                   </li>
                 ))}
               </ul>
