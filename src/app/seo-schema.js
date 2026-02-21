@@ -6,7 +6,7 @@ export default function SeoSchema() {
         __html: JSON.stringify({
           "@context": "https://schema.org",
           "@type": "EducationalOrganization",
-          name: "SKN Tec Tuition Center",
+          name: "SKN Tec ",
           telephone: "+91 9400278298",
           address: {
             "@type": "PostalAddress",
