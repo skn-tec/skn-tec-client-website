@@ -7,7 +7,13 @@ export const size = {
 
 export const contentType = "image/png";
 
-export default function Image() {
+export default async function Image() {
+
+  // 🔥 Fetch logo as buffer (required for next/og)
+  const logo = await fetch(
+    new URL("/skn-tec-logo.webp", "https://www.skn-tec.com")
+  ).then((res) => res.arrayBuffer());
+
   return new ImageResponse(
     (
       <div
@@ -23,12 +29,10 @@ export default function Image() {
           gap: "20px",
         }}
       >
-        {/* Logo from public folder */}
         <img
-          src="https://www.skn-tec.com/skn-tec-logo.webp"
+          src={logo}
           width="220"
           height="220"
-          alt="SKN TEC Logo"
         />
 
         <div
