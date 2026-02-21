@@ -1,6 +1,6 @@
 export default function manifest() {
   return {
-    name: "SKN Tec Tuition Center",
+    name: "SKN Tec ",
     short_name: "SKN Tec",
     description:
       "Best Tuition Center in Odanavattam Society Junction offering coaching and skill training.",
