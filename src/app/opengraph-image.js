@@ -11,7 +11,7 @@ export default async function Image() {
 
   // 🔥 Fetch logo as buffer (required for next/og)
   const logo = await fetch(
-    new URL("/skn-tec-logo.webp", "https://www.skn-tec.com")
+    new URL("/skn-tec-logo.png", "https://www.skn-tec.com")
   ).then((res) => res.arrayBuffer());
 
   return new ImageResponse(
